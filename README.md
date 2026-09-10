@@ -13,8 +13,8 @@ This project is a mobile dashboard prototype demonstrating core Flutter mechanic
 **Demo Video:** [Paste your Google Drive Link Here]
 
 **Screenshots:**
-![Home Screen](Screenshot1.jpeg)
-![Telemetry Screen](Screenshot2.jpeg)
+![Home Screen](Screenshot2.jpeg)
+![Telemetry Screen](Screenshot1.jpeg)
 
 ## Setup and Usage Instructions
 1. Navigate to the **Releases** section on the right side of this repository.
