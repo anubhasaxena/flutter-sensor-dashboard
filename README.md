@@ -1,4 +1,4 @@
-# Mobile Dashboard Prototype
+# Campus Hydro Twin: Mobile Dashboard Prototype
 
 ## Project Overview
 This project is a mobile dashboard prototype demonstrating core Flutter mechanics, including UI construction, state management, basic navigation, and asynchronous data handling. It simulates manual inspection logging and live telemetry monitoring.
