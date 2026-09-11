@@ -10,7 +10,7 @@ This project is a mobile dashboard prototype demonstrating core Flutter mechanic
 * **Streams:** Simulates continuous real-time telemetry pipelines.
 
 ## Media
-**Demo Video:** [Paste your Google Drive Link Here]
+**Demo Video:** https://drive.google.com/file/d/1jIfdlxW2qlzCU6Ae_FlDWrn1xwrcRFFd/view?usp=sharing
 
 **Screenshots:**
 ![Home Screen](Screenshot2.jpeg)
