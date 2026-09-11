@@ -52,7 +52,6 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(height: 40),
             ElevatedButton(
               onPressed: () {
-                // Basic Navigation: Moving to a new screen
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => const TelemetryScreen()),
@@ -75,7 +74,6 @@ class TelemetryScreen extends StatelessWidget {
     return "Server Connected: OK";
   }
 
-  // Stream: Simulates continuous live data (emits every 1 second)
   Stream<int> _liveDataStream() {
     return Stream.periodic(const Duration(seconds: 1), (count) => count * 5);
   }
@@ -88,7 +86,6 @@ class TelemetryScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // FutureBuilder handles the 2-second delay
             FutureBuilder<String>(
               future: _fetchServerStatus(),
               builder: (context, snapshot) {
