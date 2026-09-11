@@ -5,7 +5,6 @@ void main() {
   runApp(const MyApp());
 }
 
-// 1. Stateless Widget: The main app shell
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -19,7 +18,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// 2. Stateful Widget: A screen with changing state
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
@@ -69,11 +67,9 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
-// Another Stateless Widget for the second screen
 class TelemetryScreen extends StatelessWidget {
   const TelemetryScreen({super.key});
 
-  // Future: Simulates fetching a one-time data payload (2-second delay)
   Future<String> _fetchServerStatus() async {
     await Future.delayed(const Duration(seconds: 2));
     return "Server Connected: OK";
