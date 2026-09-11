@@ -1,7 +1,7 @@
 # Campus Hydro Twin: Mobile Dashboard Prototype
 
 ## Project Overview
-This project is a mobile dashboard prototype demonstrating core Flutter mechanics, including UI construction, state management, basic navigation, and asynchronous data handling. It simulates manual inspection logging and live telemetry monitoring.
+This project is a mobile dashboard prototype demonstrating core Flutter mechanics, including UI construction, state management, basic navigation and asynchronous data handling. Campus HydroTwin is an intelligent water distribution and leak prediction system designed to monitor campus infrastructure using digital twin technology. This mobile application prototype serves as a dedicated dashboard for field engineers to interface with the system on the go. It allows users to manually log on-site pipe inspection data and monitor continuous, real-time sensor telemetry from the simulated network.
 
 ## Technologies Used
 * **Dart & Flutter:** Core application framework.
